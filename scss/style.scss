@@ -1,0 +1,30 @@
+@import "variables";
+@import "colors";
+@import "typo";
+@import "form";
+@import "mixins";
+@import "spacing";
+@import "feature-box";
+@import "navigationbar";
+@import "slider";
+@import "tabs";
+@import "footer";
+
+.cover-bg {
+  background-size: cover;
+  background-position: center center;
+  &.fixed-bg {
+    background-attachment: fixed;
+  }
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  color: $body-text-color;
+  font-weight: 400;
+}
+img {
+  max-width: 100%;
+}

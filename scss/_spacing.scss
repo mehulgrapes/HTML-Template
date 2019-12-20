@@ -1,0 +1,19 @@
+.full-screen {
+  height: 100vh;
+  width: 100%;
+  @media (min-height: $breakpoint-small-screen) {
+    min-height: 768px;
+  }
+}
+section {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  &.small-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  &.big-section {
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+}

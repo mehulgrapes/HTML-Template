@@ -1,0 +1,46 @@
+{
+  "name": "swip",
+  "version": "1.0.0",
+  "description": "creative and modern multipurpose HTML template",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "keywords": [
+    "creative",
+    "modern",
+    "portfolio",
+    "one-page",
+    "bootstrap-4",
+    "HTML",
+    "CSS",
+    "SCSS",
+    "letest",
+    "template"
+  ],
+  "author": "MR",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "animate.css": "^3.7.0",
+    "bootstrap": "^4.3.1",
+    "imagesloaded": "^4.1.4",
+    "isotope-layout": "^3.0.6",
+    "jquery": "^3.4.1",
+    "jquery-appear-original": "^0.6.2",
+    "jquery-countto": "^1.2.0",
+    "swiper": "^4.5.0",
+    "wow.js": "^1.2.2"
+  }
+}

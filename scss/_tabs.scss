@@ -1,0 +1,20 @@
+.tabs {
+  margin-bottom: 25px;
+  .nav-item {
+    & .nav-link {
+      border: 1px solid $light-gray;
+      padding: 15px;
+      border-right: 0;
+      &.active {
+        background-color: $primary;
+        border-color: $primary;
+        color: $white;
+      }
+    }
+    &:last-child {
+      .nav-link {
+        border: 1px solid $light-gray;
+      }
+    }
+  }
+}

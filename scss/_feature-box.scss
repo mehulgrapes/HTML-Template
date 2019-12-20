@@ -1,0 +1,123 @@
+.feature-box {
+  text-align: center;
+  .box {
+    padding: 50px 45px;
+    background-color: $white;
+    box-shadow: 0 0 5px $light-gray;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    &:hover {
+      transform: translateY(-15px);
+      transition-duration: 0.3s;
+    }
+    .box-icon {
+      height: 50px;
+      width: 50px;
+      line-height: 50px;
+      text-align: center;
+      font-size: 22px;
+      background-color: $primary;
+      color: $white;
+      display: inline-block;
+      border-radius: 50px;
+      margin-bottom: 15px;
+    }
+  }
+
+  /* style 2 */
+  &.box-style-02 {
+    .box {
+      box-shadow: 0px 8px 10px darken($primary, 10%);
+      border-bottom: 5px solid darken($primary, 20%);
+      .box-icon {
+        height: auto;
+        width: auto;
+        line-height: normal;
+        font-size: 6rem;
+        background-color: transparent;
+        color: $primary;
+        border-radius: 0;
+      }
+    }
+  }
+  /* style 3 */
+  &.box-style-03 {
+    .box {
+      border-radius: 15px;
+      box-shadow: 0 0 20px #ddd;
+      &:hover {
+        transform: translateY(0);
+      }
+    }
+  }
+}
+.gallary-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    flex-basis: 30%;
+    max-width: 30%;
+    padding: 3px;
+  }
+}
+/* counter box */
+.counter {
+  color: $light-gray;
+  padding: 2.5rem;
+  border: 1px solid $white;
+  font-size: 22px;
+  white-space: nowrap;
+  & > i {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .count {
+    color: $primary;
+    line-height: 1;
+  }
+}
+
+/* team */
+.team {
+  .team-image {
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    img {
+      transition-duration: 0.3s;
+    }
+  }
+  &:hover {
+    cursor: pointer;
+    .team-image {
+      img {
+        transform: scale(1.1);
+        opacity: 0.6;
+        transition-duration: 0.3s;
+      }
+    }
+  }
+  .team-information {
+    padding: 30px;
+    background-color: $light-gray;
+    .team-social-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      li {
+        display: inline-block;
+        margin: 0 8px;
+        font-size: 20px;
+        a {
+          color: $dark-gray;
+          &:hover {
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+}
