@@ -40,7 +40,7 @@
     "jquery": "^3.4.1",
     "jquery-appear-original": "^0.6.2",
     "jquery-countto": "^1.2.0",
-    "swiper": "^4.5.0",
+    "swiper": "^6.5.1",
     "wow.js": "^1.2.2"
   }
 }
